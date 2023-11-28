@@ -9,6 +9,7 @@ import { TopoComponent } from './topo/topo.component';
 import { AlunosComponent } from './alunos/alunos.component';
 import { CadastroAlunosComponent } from './cadastro-alunos/cadastro-alunos.component';
 import { EditarAlunoComponent } from './editar-aluno/editar-aluno.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EditarAlunoComponent } from './editar-aluno/editar-aluno.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
