@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { TopoComponent } from './topo/topo.component';
 import { AlunosComponent } from './alunos/alunos.component';
+import { CadastroAlunosComponent } from './cadastro-alunos/cadastro-alunos.component';
+import { EditarAlunoComponent } from './editar-aluno/editar-aluno.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AlunosComponent } from './alunos/alunos.component';
     HomeComponent,
     FooterComponent,
     TopoComponent,
-    AlunosComponent
+    AlunosComponent,
+    CadastroAlunosComponent,
+    EditarAlunoComponent
   ],
   imports: [
     BrowserModule,
