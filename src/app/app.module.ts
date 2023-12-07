@@ -1,6 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
+import { MatTableModule } from '@angular/material/table';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { MatPaginatorModule} from '@angular/material/paginator';
+import { MatSortModule} from '@angular/material/sort';
+import { MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatSelectModule} from '@angular/material/select';
+import { HttpClientModule } from '@angular/common/http';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -19,10 +30,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TopoComponent,
     AlunosComponent,
     CadastroAlunosComponent,
-    EditarAlunoComponent
+    EditarAlunoComponent   
   ],
   imports: [
+    MatTableModule,
+    MatSnackBarModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    FormsModule,
     BrowserModule,
+    RouterModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],

@@ -1,0 +1,74 @@
+.alunos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.title-table {
+    text-align: center;
+}
+
+.title-table h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.filtro-input {
+    width: 100%;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-editar, .btn-deletar {
+    padding: 8px 12px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-editar {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.btn-deletar {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.btn-editar:hover, .btn-deletar:hover {
+    opacity: 0.8;
+}

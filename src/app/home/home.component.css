@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0;
+}

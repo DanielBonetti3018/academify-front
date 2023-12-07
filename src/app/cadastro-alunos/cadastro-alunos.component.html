@@ -1,1 +1,32 @@
-<p>cadastro-alunos works!</p>
+<div class="form-container">
+    <div class="title-table">
+        <h1>CADASTRAR ALUNO</h1>
+    </div>
+
+    <div class="content">
+        <div class="input-container">
+            <div class="form-field">
+                <label for="nome">Nome:</label>
+                <mat-form-field class="campo">
+                    <input id="nome" [(ngModel)]="nome" matInput placeholder="Digite o nome" />
+                </mat-form-field>
+            </div>
+
+            <div class="form-field">
+                <label for="matricula">Matrícula:</label>
+                <mat-form-field class="campo">
+                    <input id="matricula" [(ngModel)]="matricula" matInput placeholder="Digite a matrícula" />
+                </mat-form-field>
+            </div>
+
+            <div class="form-field">
+                <label for="nascimento">Data de Nascimento:</label>
+                <mat-form-field class="campo">
+                    <input id="nascimento" [(ngModel)]="nascimento" matInput placeholder="Digite a data de nascimento" />
+                </mat-form-field>
+            </div>
+
+            <button class="button" (click)="cadastrarAluno()" mat-raised-button color="primary">CADASTRAR</button>
+        </div>
+    </div>
+</div>

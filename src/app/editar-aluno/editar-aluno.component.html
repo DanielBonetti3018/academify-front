@@ -1,1 +1,30 @@
-<p>editar-aluno works!</p>
+<div class="editar-aluno-container">
+    <div class="title-table">
+        <h1>EDITAR ALUNO</h1>
+    </div>
+
+    <div class="subtitle-table">
+        <p class="nome-aluno">ALUNO {{ editedAluno.nome }}</p>
+    </div>
+
+    <div class="content">
+        <div class="form-container">
+            <mat-form-field class="campo">
+                <label for="nome">Nome:</label>
+                <input id="nome" [(ngModel)]="editedAluno.nome" matInput placeholder="Digite o nome" />
+            </mat-form-field>
+
+            <mat-form-field class="campo">
+                <label for="matricula">Matrícula:</label>
+                <input id="matricula" [(ngModel)]="editedAluno.matricula" matInput placeholder="Digite a matrícula" />
+            </mat-form-field>
+
+            <mat-form-field class="campo">
+                <label for="nascimento">Nascimento (ano-mês-dia):</label>
+                <input id="nascimento" [(ngModel)]="editedAluno.nascimento" matInput placeholder="Digite a data de nascimento" />
+            </mat-form-field>
+
+            <button class="button" (click)="salvarEdicao()" mat-raised-button color="primary">SALVAR</button>
+        </div>
+    </div>
+</div>

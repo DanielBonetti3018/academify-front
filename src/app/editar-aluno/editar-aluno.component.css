@@ -1,0 +1,68 @@
+.editar-aluno-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.title-table {
+    text-align: center;
+}
+
+.title-table h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.subtitle-table {
+    margin-bottom: 20px;
+}
+
+.nome-aluno {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #555;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.campo {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
